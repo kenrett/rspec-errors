@@ -8,5 +8,8 @@ gem 'bcrypt-ruby'
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
   gem 'capybara'
+  gem 'sextant'
+  gem 'debugger'
+  gem 'database_cleaner'
 end
 
